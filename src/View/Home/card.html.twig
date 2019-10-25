@@ -1,0 +1,87 @@
+{% extends 'layout.html.twig' %}
+
+{% block card %}
+<!-- Debut de la section choix du caractere -->
+<section class='container caractere'>
+    <div>
+        <p class='col-12 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <div class='row caractere_div'>
+            <h1 class='col-12 mt-3 caractere_div_h1'>Les classes disponible :</h1>
+        </div>
+        <!-- Premiere classe -->
+        <div class="card caractere_div-classe mb-3">
+            <img class="card-img-top" src="https://s1.1zoom.me/big0/806/Warriors_Men_468915.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title caractere_div_h5">Guerrier</h5>
+                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <ul class='col-12 caractere_liste'>
+                    <li class='caractere_liste-item mr-1'>Int : 16</li>
+                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
+                    <li class='caractere_liste-item mr-1'>Force : 25</li>
+                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
+            </div>
+        </div>
+        <!-- Deuxieme classe  -->
+        <div class="card caractere_div-classe mb-3">
+            <img class="card-img-top" src="https://s1.1zoom.me/big0/806/Warriors_Men_468915.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title caractere_div_h5">Guerrier</h5>
+                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <ul class='col-12 caractere_liste'>
+                    <li class='caractere_liste-item mr-1'>Int : 16</li>
+                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
+                    <li class='caractere_liste-item mr-1'>Force : 25</li>
+                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
+            </div>
+        </div>
+        <!-- Troisieme classe  -->
+        <div class="card caractere_div-classe mb-3">
+            <img class="card-img-top" src="https://s1.1zoom.me/big0/806/Warriors_Men_468915.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title caractere_div_h5">Guerrier</h5>
+                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <ul class='col-12 caractere_liste'>
+                    <li class='caractere_liste-item mr-1'>Int : 16</li>
+                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
+                    <li class='caractere_liste-item mr-1'>Force : 25</li>
+                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
+            </div>
+        </div>
+        <!-- fin choix classe -->
+        <form class='row caractere_form' action="" methode="">
+            <label for="pseudo" class='col-sm col-lg-2 col-xl-2 mt-3 caractere_form_label'>Pseudo*</label>
+            <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-2 m-3 caractere_form_input-pseudo" name='pseudo' id="pseudo" placeholder="Eikyuu">
+            <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
+                <label class="btn btn-secondary active" for='femme'>
+                    <input type="radio" name="femme" id="femme" autocomplete="off" checked> Femme
+                </label>
+                <label class="btn btn-secondary" for='homme'>
+                    <input type="radio" name="homme" id="homme" autocomplete="off"> Homme
+                </label>
+            </div>
+            <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
+                <label class="btn btn-secondary active" for='guerrier'>
+                    <input type="radio" name="guerrier" id="guerrier" autocomplete="off" checked> Guerrier
+                </label>
+                <label class="btn btn-secondary" for='voleur'>
+                    <input type="radio" name="voleur" id="voleur" autocomplete="off"> Voleur
+                </label>
+                <label class="btn btn-secondary" for='magicien'>
+                    <input type="radio" name="magicien" id="magicien" autocomplete="off"> Magicien
+                </label>
+                <label class="btn btn-secondary" for='chien'>
+                    <input type="radio" name="chien" id="chien" autocomplete="off"> Chien
+                </label>
+            </div>
+        </form>
+        <div class='row button_div'>
+            <button type="button" class="btn btn-dark mx-auto mb-3">Commencer l'aventure!</button>
+        </div>
+</section>
+{% endblock %}
