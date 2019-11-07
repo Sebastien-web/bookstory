@@ -1,0 +1,55 @@
+{% extends 'layout.html.twig' %}
+
+{% block stage3attaque %}
+<!--ETAPE NUMERO TROIS ATTAQUE-->
+<section class="container story">
+    <div class="row story_div_h1">
+        <h1 class="col-12 mt-3 story_div_h1">A l’assaut !!!!</h1>
+        <img src="https://zupimages.net/up/19/45/3xp0.jpg" class="col-12 mb-3 story_img" alt="image">
+    </div>
+    <div class="row story_div_row">
+        <p class="col-12 story_div_p">
+            Vous serrez votre épée entre vos mains moites, prenez une grande inspiration pour trouver du courage et
+            décidez de vous lancer sur la bête. Votre cri résonne entre les arbres et le silence tombe sur la forêt. À un
+            mètre de vous, à hauteur de votre propre visage, une immense gueule aux dents jaunâtre s’ouvre avec
+            avidité. De la salive tombe sûr d’immenses pattes-de-loup. Des poils noirs se dressent sur le dos du
+            gargantuesque canidé impatient de vous dévorer.
+        </p>
+        <p class="col-12 story_div_p">
+            Le poids de la bête stoppe votre course effrénée. Vous levez votre arme et titubez en arrière, poussé par la
+            puissance dévastatrice de l’animal. Vous vous rattrapez à la branche d’un vieil arbre. Du sang coule sur
+            votre lame et les glapissements devant vous confirment qu’il ne vous appartient pas. Les yeux jaunes du
+            loup s’assombrissent. Il pousse un hurlement. La végétation s’anime et deux autres loups apparaissent
+            derrière celui que vous combattez.
+        </p>
+        <img src="https://zupimages.net/up/19/45/d1j8.gif" class="col-12 story_img" alt="image">
+        <p class="col-12 story_div_p">
+            Vous commencez à courir pour échapper aux grognements qui vous suivent. Vous ne sentez plus la
+            douleur de votre blessure empoisonnée, ni votre fatigue et votre faiblesse. Vos pas s’enchaînent avec
+            rapidité et fluidité. Vous esquivez les obstacles devant vous avec facilité, prêt à frapper le premier loup à
+            porter de lame. Les bêtes approchent petit à petit, cherche à vous mordre de loin sans oser vous sauter au
+            cou. Devant vous, vous voyez la sortie de la forêt. Malheureusement un félin bloque votre passage. Ses
+            yeux verts vous ont repérés mais l’animal reste immobile.
+        </p>
+        <p class="col-12 story_div_p">
+            Vous pouvez tenter de foncer dans sa direction avec l’espoir qu’une fois sortie de cette forêt, aucune des
+            bêtes sauvages ne vous suivra. Vous pouvez aussi tenter de le contourner de quelques mètres et de garder
+            les loups à distance.
+        </p>
+        <p class="col-12 story_div_p">Vous avez l’effet de surprise. Allez-vous les attaquer de front ou attendre qu’ils passent en essayant de rester discret ?</p>
+        <img src="https://zupimages.net/up/19/45/8w9o.jpg" class="col-12 story_img" alt="image">
+        <p class="col-12 story_div_p pt-3">Quel choix faîtes vous ?</p>
+        <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+            <label class="btn btn-secondary active story_path_label" for="a">
+                <input type="radio" name="a" id="a" autocomplete="off" checked> Détour
+            </label>
+            <label class="btn btn-secondary story_path_label" for="b">
+                <input type="radio" name="b" id="b" autocomplete="off"> Félin
+            </label>
+        </div>
+    </div>
+    <div class="row story_div">
+        <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+    </div>
+</section>
+{% endblock %}
