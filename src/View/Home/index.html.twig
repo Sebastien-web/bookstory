@@ -1,7 +1,7 @@
 {% extends "layout.html.twig" %}
 
 {% block carousel %}
-<div class="container mt-3 slide_div_slide">
+<div class="container mt-5 slide_div_slide">
     <div id="carouselExampleIndicators" class="slide_div_slide--carousel carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -79,7 +79,7 @@
         </div>
         <form class="row caractere_form align-items-end d-flex flex-column" action="" methode="">
             <label for="pseudo" class="col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label">Pseudo*</label>
-            <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 m-3 caractere_form_input-pseudo" name="pseudo" id="pseudo" placeholder="Votre meilleur pseudo !">
+            <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 mt-3 caractere_form_input-pseudo" name="pseudo" id="pseudo" placeholder="Votre meilleur pseudo !">
             <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
                 <label class="btn btn-secondary active" for="female">
                     <input type="radio" name="female" id="female" autocomplete="off" checked>
@@ -172,8 +172,8 @@
         </div>
         {% endif %}
         <!--FIN DE CHOIX COMMENCER AVENTURE-->
-        <div class="row button_div">
-            <button type="button" class="btn btn-dark mx-auto mb-3">Commencer l"aventure!</button>
+        <div class='row button_div'>
+            <button type="button" class="btn btn-dark mx-auto">Commencer l'aventure!</button>
         </div>
 </section>
 {% endblock %}
