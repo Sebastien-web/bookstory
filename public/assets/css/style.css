@@ -17,7 +17,28 @@ img.slide_div_carousel_img--height.d-block.w-100
 {
     height: 50vh;
 }
-.row caractere_form
+.row .caractere_form
 {
     flex-direction: column;
+}
+
+.footer_div {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 1030;
+    
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+button.btn.btn-dark.mx-auto {
+    margin-bottom: 3rem;
 }
