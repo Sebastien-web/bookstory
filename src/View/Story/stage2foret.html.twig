@@ -1,40 +1,45 @@
-{% extends 'layout.html.twig' %}
+{% extends "layout.html.twig" %}
 
 {% block stage2foret %}
 <!--ETAPE NUMERO DEUX FORÊT-->
-<section class='container story'>
-    <div class='row story_div_h1'>
-        <h1 class='col-12 mt-3 story_div_h1'>Vous avez choisi de vous enfoncer dans cette sombre et lugubre forêt.</h1>
+<section class="container story">
+    <div class="row story_div_h1">
+        <h1 class="col-12 mt-3 story_div_h1">Vous avez choisi de vous enfoncer dans cette sombre et lugubre forêt.</h1>
         <img src="https://zupimages.net/up/19/45/3fpa.jpg" class="col-12 mb-3 story_img" alt="image">
     </div>
-    <div class='row story_div_row'>
-        <p class='col-12 story_div_p'>La terre est boueuse et
-            vous peinez à avancer. Il vous faut beaucoup de temps pour vous y enfoncer et disparaître dans la
-            végétation. L’air sent l'humidité et la moisissure. Votre respiration devient difficile et vous sentez la
-            brûlure du poison s’infiltrer dans chaque partie du votre corps. À l'aide de votre épée vous écartez de
+    <div class="row story_div_row">
+        <p class="col-12 story_div_p">
+            La terre est boueuse et vous peinez à avancer. Il vous faut beaucoup de temps pour vous y enfoncer et disparaître dans la
+            végétation. L’air sent l"humidité et la moisissure. Votre respiration devient difficile et vous sentez la
+            brûlure du poison s’infiltrer dans chaque partie du votre corps. À l"aide de votre épée vous écartez de
             votre chemin les branches qui gênent votre passage. Une à une elles tombent sur le sol dans un bruit
             sourd. Des oiseaux s’envolent, des rongeurs fuient, et seuls les insectes restent à vos côtés, attirés par le
-            parfum de votre sang.</p>
-        <p class='col-12 story_div_p'>Au fil de vos pas vous sentez des craquements sous vos pieds. D’un coup d’œil rapide vous remarquez
+            parfum de votre sang.
+        </p>
+        <p class="col-12 story_div_p">
+            Au fil de vos pas vous sentez des craquements sous vos pieds. D’un coup d’œil rapide vous remarquez
             que vous marchez sur des os. Sur les arbres d’immenses marques de griffes s’accumulent tout autour de
             vous. Une immonde odeur d’urine s’en échappe. Vous comprenez au grognement sourd devant vous que
-            vous êtes sur le terrain d’une bête sauvage, et qu’elle vous a repérée.</p>
-        <p class='col-12 story_div_p'>Lame en main, vous hésitez à combattre ou vous enfuir. Vous ne savez si, affaibli comme vous l’êtes,
+            vous êtes sur le terrain d’une bête sauvage, et qu’elle vous a repérée.
+        </p>
+        <p class="col-12 story_div_p">
+            Lame en main, vous hésitez à combattre ou vous enfuir. Vous ne savez si, affaibli comme vous l’êtes,
             vous êtes de taille à combattre cet ennemi pour le moment invisible. Mais aurez-vous la force de fuir
-            assez rapidement pour espérer semer ce monstre ? Et ou votre fuite vous emmènera-t-elle ?</p>
+            assez rapidement pour espérer semer ce monstre ? Et ou votre fuite vous emmènera-t-elle ?
+        </p>
         <img src="https://zupimages.net/up/19/45/q3gv.jpg" class="col-12 story_img" alt="image">
-        <p class='col-12 story_div_p'>Que faîtes vous ?</p>
+        <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
         <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
-            <label class="btn btn-secondary active story_path_label" for='a'>
+            <label class="btn btn-secondary active story_path_label" for="a">
                 <input type="radio" name="a" id="a" autocomplete="off" checked> Attaque
             </label>
-            <label class="btn btn-secondary story_path_label" for='b'>
+            <label class="btn btn-secondary story_path_label" for="b">
                 <input type="radio" name="b" id="b" autocomplete="off"> Fuite
             </label>
         </div>
     </div>
-    <div class='row story_div'>
-        <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l'aventure!</button>
+    <div class="row story_div">
+        <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
     </div>
 </section>
 {% endblock %}

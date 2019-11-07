@@ -1,4 +1,4 @@
-{% extends 'layout.html.twig' %}
+{% extends "layout.html.twig" %}
 
 {% block carousel %}
 <div class="container mt-5 slide_div_slide">
@@ -37,18 +37,34 @@
 
 {% block card %}
 <!-- Debut de la section choix du caractere -->
+<<<<<<< HEAD
 <section class='container caractere'>
     <div class="row">
         <p class='col-12 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         <p class='col-12 mt-3'>Votre échec pèse sur vos épaules, et votre moral. Pensiez-vous vraiment pouvoir combattre Romano Del
+=======
+<section class="container caractere">
+    <div>
+        <p class="col-12 mt-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <p class="col-12 mt-3">
+            Votre échec pèse sur vos épaules, et votre moral. Pensiez-vous vraiment pouvoir combattre Romano Del
+>>>>>>> cc29249d0504d499aad3e598e2e5ebe6a24bbad5
             Fallet et ses centaines de sbires à vous seul ? Vous avez attaqué sa forteresse, tenté de vous infiltrer pour
             sauver votre famille. Mais sans succès. Votre âme sœur a rendu l’âme devant vous, étranglé par les mains
             Del Fallet. Le rire de ce tirant hante votre esprit et vous voyez encore les yeux vides qui vous supplient de
-            les sauver.</p>
-        <p class='col-12 mt-3'>En vous échappant in-extremis de cet enfer, vous avez reçu une flèche empoisonnée dans le dos. Le venin
+            les sauver.
+        </p>
+        <p class="col-12 mt-3">
+            En vous échappant in-extremis de cet enfer, vous avez reçu une flèche empoisonnée dans le dos. Le venin
             vous brûle les veines à chaque minute qui s’écoule, et votre cœur est rongé par le remords. Vous titubait
             depuis de longues heures déjà, avec pour seule compagnie une fièvre qui augmente sans cesse. Un étau
             vous compresse le crâne, votre vision s’assombrit de plus en plus.
+<<<<<<< HEAD
             Vos jambes faiblissent. Bientôt vous ne pourrez plus avancer.</p>
         <p class='col-12 mt-3'>Arriverez-vous à trouver un médecin à temps ?
             Ou mourrez-vous avec la honte comme amie ?</p>
@@ -60,36 +76,64 @@
         <form class='row caractere_form align-items-end d-flex flex-column' action="" methode="">
             <label for="pseudo" class='col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label'>Pseudo*</label>
             <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 mb-3 caractere_form_input-pseudo" name='pseudo' id="pseudo" placeholder="Votre meilleur pseudo !">
+=======
+            Vos jambes faiblissent. Bientôt vous ne pourrez plus avancer.
+        </p>
+        <p class="col-12 mt-3">
+            Arriverez-vous à trouver un médecin à temps ?
+            Ou mourrez-vous avec la honte comme amie ?
+        </p>
+        <div class="row caractere_div">
+            <h1 class="col-xl-7 mt-3 caractere_div_h1">Choix de la classe</h1>
+        </div>
+        <!--FORMULAIRE DE CHOIX-->
+        <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
+            <label class="btn btn-secondary active" for="female">
+                <input type="radio" name="female" id="female" autocomplete="off" checked>
+                <a href="/Home/index/female">Féminin</a>
+            </label>
+            <label class="btn btn-secondary" for="male">
+                <input type="radio" name="male" id="male" autocomplete="off" checked>
+                <a href="#">Masculin</a>
+            </label>
+        </div>
+        <form class="row caractere_form align-items-end d-flex flex-column" action="" methode="">
+            <label for="pseudo" class="col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label">Pseudo*</label>
+            <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 m-3 caractere_form_input-pseudo" name="pseudo" id="pseudo" placeholder="Votre meilleur pseudo !">
+>>>>>>> cc29249d0504d499aad3e598e2e5ebe6a24bbad5
             <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
-                <label class="btn btn-secondary active" for='female'>
-                    <input type="radio" name="female" id="female" autocomplete="off" checked><a href=" ">Féminin</a>
+                <label class="btn btn-secondary active" for="female">
+                    <input type="radio" name="female" id="female" autocomplete="off" checked>
+                    <a href="/Home/index/female">Féminin</a>
                 </label>
-                <label class="btn btn-secondary" for='male'>
+                <label class="btn btn-secondary" for="male">
                     <input type="radio" name="male" id="male" autocomplete="off" checked><a href="#">Masculin</a>
                 </label>
             </div>
             <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
-                <label class="btn btn-secondary active" for='aventurer'>
+                <label class="btn btn-secondary active" for="aventurer">
                     <input type="radio" name="aventurer" id="aventurer" autocomplete="off" checked> Aventurier
                 </label>
-                <label class="btn btn-secondary" for='ferret'>
+                <label class="btn btn-secondary" for="ferret">
                     <input type="radio" name="ferret" id="ferret" autocomplete="off" checked> Furret
                 </label>
             </div>
         </form>
         <!--CHOIX MASCULIN-->
-        {% if gender is same as('male') %}
+        {% if gender is same as("male") %}
         <!--AVENTURIER-->
         <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
             <img class="card-img-top" src="https://zupimages.net/up/19/45/8fek.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title caractere_div_h5">Aventurier</h5>
-                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <ul class='col-12 caractere_liste'>
-                    <li class='caractere_liste-item mr-1'>Int : 16</li>
-                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
-                    <li class='caractere_liste-item mr-1'>Force : 25</li>
-                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                <p class="card-text caractere_div_p">
+                    Some quick example text to build on the card title and make up the bulk of the card"s content.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Int : 16</li>
+                    <li class="caractere_liste-item mr-1">Agi : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 25</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
                 </ul>
                 <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
             </div>
@@ -99,29 +143,33 @@
             <img class="card-img-top" src="https://zupimages.net/up/19/45/xdl4.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title caractere_div_h5">Furret</h5>
-                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <ul class='col-12 caractere_liste'>
-                    <li class='caractere_liste-item mr-1'>Int : 16</li>
-                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
-                    <li class='caractere_liste-item mr-1'>Force : 25</li>
-                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                <p class="card-text caractere_div_p">
+                    Some quick example text to build on the card title and make up the bulk of the card"s content.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Int : 16</li>
+                    <li class="caractere_liste-item mr-1">Agi : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 25</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
                 </ul>
                 <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
             </div>
         </div>
         <!--CHOIX FEMININ-->
-        {% elseif gender is same as('female') %}
+        {% elseif gender is same as("female") %}
         <!--AVENTURIERE-->
         <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
             <img class="card-img-top" src="https://zupimages.net/up/19/45/pz4e.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title caractere_div_h5">Aventurière</h5>
-                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <ul class='col-12 caractere_liste'>
-                    <li class='caractere_liste-item mr-1'>Int : 16</li>
-                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
-                    <li class='caractere_liste-item mr-1'>Force : 25</li>
-                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                <p class="card-text caractere_div_p">
+                    Some quick example text to build on the card title and make up the bulk of the card"s content.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Int : 16</li>
+                    <li class="caractere_liste-item mr-1">Agi : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 25</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
                 </ul>
                 <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
             </div>
@@ -131,20 +179,27 @@
             <img class="card-img-top" src="https://zupimages.net/up/19/45/997d.png" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title caractere_div_h5">Furrettte</h5>
-                <p class="card-text caractere_div_p">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <ul class='col-12 caractere_liste'>
-                    <li class='caractere_liste-item mr-1'>Int : 16</li>
-                    <li class='caractere_liste-item mr-1'>Agi : 28</li>
-                    <li class='caractere_liste-item mr-1'>Force : 25</li>
-                    <li class='caractere_liste-item mr-1'>Sagesse : 25</li>
+                <p class="card-text caractere_div_p">
+                    Some quick example text to build on the card title and make up the bulk of the card"s content.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Int : 16</li>
+                    <li class="caractere_liste-item mr-1">Agi : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 25</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
                 </ul>
                 <a href="#" class="btn btn-primary caractere_div-link">En savoir plus</a>
             </div>
         </div>
         {% endif %}
         <!--FIN DE CHOIX COMMENCER AVENTURE-->
+<<<<<<< HEAD
         <div class='row button_div'>
             <button type="button" class="btn btn-dark mx-auto">Commencer l'aventure!</button>
+=======
+        <div class="row button_div">
+            <button type="button" class="btn btn-dark mx-auto mb-3">Commencer l"aventure!</button>
+>>>>>>> cc29249d0504d499aad3e598e2e5ebe6a24bbad5
         </div>
 </section>
 {% endblock %}

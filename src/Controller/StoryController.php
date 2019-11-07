@@ -44,9 +44,4 @@ class StoryController extends AbstractController
     {
         return $this->twig->render('Story/stage3attaque.html.twig');
     }
-
-    public function stage4sbires()
-    {
-        return $this->twig->render('Story/stage4sbires.html.twig');
-    }
 }
