@@ -56,12 +56,20 @@
             <h1 class='col-xl-7 mt-3 caractere_div_h1'>Choix de la classe</h1>
         </div>
         <!--FORMULAIRE DE CHOIX-->
+        <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
+            <label class="btn btn-secondary active" for='female'>
+                <input type="radio" name="female" id="female" autocomplete="off" checked><a href="/Home/index/female">Féminin</a>
+            </label>
+            <label class="btn btn-secondary" for='male'>
+                <input type="radio" name="male" id="male" autocomplete="off" checked><a href="#">Masculin</a>
+            </label>
+        </div>
         <form class='row caractere_form align-items-end d-flex flex-column' action="" methode="">
             <label for="pseudo" class='col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label'>Pseudo*</label>
             <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 m-3 caractere_form_input-pseudo" name='pseudo' id="pseudo" placeholder="Votre meilleur pseudo !">
             <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
                 <label class="btn btn-secondary active" for='female'>
-                    <input type="radio" name="female" id="female" autocomplete="off" checked><a href=" ">Féminin</a>
+                    <input type="radio" name="female" id="female" autocomplete="off" checked><a href="/Home/index/female">Féminin</a>
                 </label>
                 <label class="btn btn-secondary" for='male'>
                     <input type="radio" name="male" id="male" autocomplete="off" checked><a href="#">Masculin</a>
