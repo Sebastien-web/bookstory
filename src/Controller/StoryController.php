@@ -20,28 +20,10 @@ class StoryController extends AbstractController
      * @throws \Twig\Error\SyntaxError
      */
 
-    public function stage1()
+    public function stage($parameter)
     {
-        return $this->twig->render('Story/stage1.html.twig');
-    }
-
-    public function stage2foret()
-    {
-        return $this->twig->render('Story/stage2foret.html.twig');
-    }
-
-    public function stage2montagne()
-    {
-        return $this->twig->render('Story/stage2montagne.html.twig');
-    }
-
-    public function stage3fuite()
-    {
-        return $this->twig->render('Story/stage3fuite.html.twig');
-    }
-
-    public function stage3attaque()
-    {
-        return $this->twig->render('Story/stage3attaque.html.twig');
+        return $this->twig->render('Story/stage.html.twig', [
+            'level' => $parameter
+        ]);
     }
 }

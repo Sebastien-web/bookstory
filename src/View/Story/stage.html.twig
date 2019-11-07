@@ -1,0 +1,585 @@
+{% extends 'layout.html.twig' %}
+
+{% block stage %}
+    {% if level is same as("foretLevel2") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Vous avez choisi de vous enfoncer dans cette sombre et lugubre forêt.</h1>
+                <img src="https://zupimages.net/up/19/45/3fpa.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    La terre est boueuse et vous peinez à avancer. Il vous faut beaucoup de temps pour vous y enfoncer et disparaître dans la
+                    végétation. L’air sent l"humidité et la moisissure. Votre respiration devient difficile et vous sentez la
+                    brûlure du poison s’infiltrer dans chaque partie du votre corps. À l"aide de votre épée vous écartez de
+                    votre chemin les branches qui gênent votre passage. Une à une elles tombent sur le sol dans un bruit
+                    sourd. Des oiseaux s’envolent, des rongeurs fuient, et seuls les insectes restent à vos côtés, attirés par le
+                    parfum de votre sang.
+                </p>
+                <p class="col-12 story_div_p">
+                    Au fil de vos pas vous sentez des craquements sous vos pieds. D’un coup d’œil rapide vous remarquez
+                    que vous marchez sur des os. Sur les arbres d’immenses marques de griffes s’accumulent tout autour de
+                    vous. Une immonde odeur d’urine s’en échappe. Vous comprenez au grognement sourd devant vous que
+                    vous êtes sur le terrain d’une bête sauvage, et qu’elle vous a repérée.
+                </p>
+                <p class="col-12 story_div_p">
+                    Lame en main, vous hésitez à combattre ou vous enfuir. Vous ne savez si, affaibli comme vous l’êtes,
+                    vous êtes de taille à combattre cet ennemi pour le moment invisible. Mais aurez-vous la force de fuir
+                    assez rapidement pour espérer semer ce monstre ? Et ou votre fuite vous emmènera-t-elle ?
+                </p>
+                <img src="https://zupimages.net/up/19/45/q3gv.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Attaque
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Fuite
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("montagneLevel2") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Le dos courbé et les épaules voûtées..</h1>
+                <img src="https://zupimages.net/up/19/45/4tcr.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous commencez à monter aussi vite que vous le pouvez.
+                    La pente est des plus ardus. Vous sentez vos muscles se raidirent puis s’enflammer au fil des mètres qui
+                    se succèdent. Votre blessure handicap vos mouvements et votre avancer. Comme vous le redoutiez, des
+                    voix s’élèvent derrière vous. Trois sbires Del Fallet vous ont repéré et cours dans votre direction. Ils
+                    gagnent rapidement du terrain. Vous continuez votre course effrénée pour vous échapper.
+                </p>
+                <p class="col-12 story_div_p">
+                    Au loin vous apercevez un pont en piteux état. Vous craignez qu’il ne cède sous votre poids, mais si vous
+                    décidez de l’éviter vous perdriez une avance cruciale et vous retrouverez face à face. Peut-être pouvez les
+                    combattre.
+                </p>
+                <img src="https://zupimages.net/up/19/45/0jwt.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Eviter le pont
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Emprunter le pont
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("attaqueLevel3") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">A l’assaut !!!!</h1>
+                <img src="https://zupimages.net/up/19/45/3xp0.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous serrez votre épée entre vos mains moites, prenez une grande inspiration pour trouver du courage et
+                    décidez de vous lancer sur la bête. Votre cri résonne entre les arbres et le silence tombe sur la forêt. À un
+                    mètre de vous, à hauteur de votre propre visage, une immense gueule aux dents jaunâtre s’ouvre avec
+                    avidité. De la salive tombe sûr d’immenses pattes-de-loup. Des poils noirs se dressent sur le dos du
+                    gargantuesque canidé impatient de vous dévorer.
+                </p>
+                <p class="col-12 story_div_p">
+                    Le poids de la bête stoppe votre course effrénée. Vous levez votre arme et titubez en arrière, poussé par la
+                    puissance dévastatrice de l’animal. Vous vous rattrapez à la branche d’un vieil arbre. Du sang coule sur
+                    votre lame et les glapissements devant vous confirment qu’il ne vous appartient pas. Les yeux jaunes du
+                    loup s’assombrissent. Il pousse un hurlement. La végétation s’anime et deux autres loups apparaissent
+                    derrière celui que vous combattez.
+                </p>
+                <img src="https://zupimages.net/up/19/45/d1j8.gif" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p">
+                    Vous commencez à courir pour échapper aux grognements qui vous suivent. Vous ne sentez plus la
+                    douleur de votre blessure empoisonnée, ni votre fatigue et votre faiblesse. Vos pas s’enchaînent avec
+                    rapidité et fluidité. Vous esquivez les obstacles devant vous avec facilité, prêt à frapper le premier loup à
+                    porter de lame. Les bêtes approchent petit à petit, cherche à vous mordre de loin sans oser vous sauter au
+                    cou. Devant vous, vous voyez la sortie de la forêt. Malheureusement un félin bloque votre passage. Ses
+                    yeux verts vous ont repérés mais l’animal reste immobile.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous pouvez tenter de foncer dans sa direction avec l’espoir qu’une fois sortie de cette forêt, aucune des
+                    bêtes sauvages ne vous suivra. Vous pouvez aussi tenter de le contourner de quelques mètres et de garder
+                    les loups à distance.
+                </p>
+                <p class="col-12 story_div_p">Vous avez l’effet de surprise. Allez-vous les attaquer de front ou attendre qu’ils passent en essayant de rester discret ?</p>
+                <img src="https://zupimages.net/up/19/45/8w9o.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Quel choix faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Détour
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Félin
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("fuiteLevel3") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Vous commencez à courir pour échapper aux grognements qui vous suivent !</h1>
+                <img src="https://zupimages.net/up/19/45/9wkc.gif" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous ne sentez plus la douleur de votre blessure empoisonnée, ni votre fatigue et votre faiblesse. Vos pas s’enchaînent avec
+                    rapidité et fluidité tant l’adrénaline envahit votre corps. Vous esquivez les obstacles devant vous avec
+                    facilité, prêt à frapper le loup s’il vient à porter de lame.
+                </p>
+                <p class="col-12 story_div_p">
+                    La bête approche petit à petit, cherche à vous mordre de loin sans oser vous sauter au cou. Vous
+                    remarquez le sang qui s’accumule sur votre lame, et les glapissements de l’animal vous font comprendre
+                    que vous l’avez grièvement blessé. Devant vous, vous voyez la sortie de la forêt. Vous réussissez à
+                    l’atteindre et vous retrouvez sur une route. Le loup stoppe sa course et reste tapis entre les arbres.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous vous éloignez et trouvez refuge contre un buisson. Vous restez immobile un long moment
+                    pour retrouver des forces. Une chance pour vous car quelques minutes plus tard vous entendez des voix
+                    crier au loin. Des bruits de pas cours dans votre direction et vous remarquez les sbires de del Fallet arriver
+                    dans votre direction.
+                </p>
+                <p class="col-12 story_div_p">Vous avez l’effet de surprise. Allez-vous les attaquer de front ou attendre qu’ils passent en essayant de rester discret ?</p>
+                <img src="https://zupimages.net/up/19/45/8f7k.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Quel choix faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Vous volez et tuez les sbires
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Vous laissez passer les sbires
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("nopontLevel3") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Froussard.</h1>
+                <img src="https://zupimages.net/up/19/45/8f7k.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Ce pont lugubre et délabré ne vous inspire définitivement pas confiance. Vous êtes persuadé que
+                    la mort vous attends si vous tentez de le traverser, et décider donc de mourir en combattant si tel est votre
+                    destin. Vous vous retournez, arme sortie, et foncez vers vos ennemis. Deux d’entre eux vous imite, les
+                    yeux tout autant injecté de sang que les vôtres. Mais vous remarquez le troisième sbire rester à l’écart. Il
+                    lève son arc, bande une flèche et vous vise.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous ne savez comment procéder. Devez tuer les deux sbires avant d’attaquer ce lâche d’archer ?
+                    Ou devez vous esquivez les deux épéistes et vous occuper de lui en premier ?
+                </p>
+                <img src="https://zupimage7v.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que décidez-vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Choix A
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Choix B
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("pontLevel3") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Il est encore temps de changer d’avis.</h1>
+                <img src="https://zupimages.net/up/19/45/eb7f.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous arrivez devant le pont. Son état est encore plus pitoyable que vous le pensiez. Il manque de
+                    nombreuses planches de bois, les cordes sont abîmées et entaillées sur plusieurs endroits et la moisissure
+                    est présente partout. En dessous un vide immense vous promet la mort si vous tombez en son sein. Les
+                    sbires sont presque derrière vous, à une centaine de mètres, et vous doutez de vos capacités à passer cet
+                    obstacle avant qu’ils arrivent.
+                </p>
+                <p class="col-12 story_div_p">
+                    Mais vous doutez tout autant de pouvoir combattre vos trois adversaires. Votre blessure ne cesse de
+                    saigner et de vous faire souffrir. Vos mains tremblent tant votre fièvre augmentée de minute en minute, et
+                    votre vision se trouble toujours plus. La brûlure du poison atteint chaque extrémité de votre corps.
+                </p>
+                <p class="col-12 story_div_p">
+                    Votre décision se consiste-t-elle à choisir votre mort ? Tomber ou poignarder.
+                </p>
+                <img src="https://zupimages.net/up/19/45/n57v.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Rebrousser chemin
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Emprunter le pont
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("detourLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Dommage.</h1>
+                <img src="https://zupimages.net/up/19/45/1iko.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous décidez de contourner le félin devant vous, puis réalisez votre erreur que trop tard. Non
+                    seulement vous vous éloignez de la plus proche sortie, mais vous arrivez aussi vers la seule et unique
+                    source d’eau de la forêt. Autour de cette petite rivière boueuse, une multitude de regard se pose sur vous.
+                    Pour la plupart en meute de quelques individus, vous vous retrouvez encerclé. Les bêtes sauvages vos
+                    attaques sans sommation, et derrière vous les loups et la panthère en font de même.
+                </p>
+                <p class="col-12 story_div_p">
+                    Votre mise à mort est lente et douloureuse. Elle crée un chaos total parmi les animaux désireux
+                    de vous dévorer. Une guerre se d’éclanche au-dessus de vous, et vous recevez nombre de coup de crocs
+                    au milieu de cette anarchie de grognements.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous ne voyez pas qui l’emporte, mais enfin le coup de crocs fatal achève vos souffrances.
+                </p>
+                <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Dommage.
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("felinLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Boum !!!</h1>
+                <img src="https://zupimages.net/up/19/45/eyq7.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Le détour est impossible. Il signerait votre arrêt de mort, et vous l’avez compris. Les loups sont
+                    bien trop proches et enragés pour vous laisser passer la moindre erreur. Vous sentez leurs crocs
+                    déchiquetés vos vêtements, et les coups de lame que vous tenez de leur assener ne stoppent pas leurs
+                    multiples tentatives. Ils vous harcèlent les uns après les autres, esquivent chacune de vos attaques avec
+                    fluidité. Le loup blessé reste en retrait, mais proche pour vous observer vous épuiser et vous débattre.
+                    Mais aucun d’eux n’a compris votre ruse.
+                </p>
+                <p class="col-12 story_div_p">
+                    Votre espoir réside dans le véritable propriétaire des lieux, celui dont les griffes lacèrent les arbres depuis
+                    de longues années maintenant. L’unique panthère noire de la forêt vous foudroie du regard, dérangée dans
+                    sa minutieuse toilette quotidienne. Ses muscles se tendent quand elle s’étire puis se redresse. Vous voir,
+                    ainsi que les loups, si proche d’elle ne l’inquiète nullement. Elle hume le parfum dans votre direction et se
+                    lèche les babines. D’un bond elle s’élance vers vous et saute, prêt à vous égorger. Votre timing est parfait.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous vous laissez tomber et glisser en avant, sous elle, et esquivez ses pattes. La panthère ne peut
+                    qu’atterrir sur les deux loups derrière vous et entrer en combat avec eux. Les grognements et les
+                    feulements s’enchaînent sous les coups de crocs. Vous profitez du chaos pour vous enfuir de la forêt. De
+                    nouveau sur la route, vous récupérez tant que mal votre souffle avec les rares forces qu’il vous reste. Vos
+                    jambes faiblissent au fil de vos pas.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous continuez à marcher, et un nouveau dilemme se présente à vous. Le dernier.
+                    À votre droite vous apercevez les portes d’une gigantesque ville. À l"intérieur vous y trouverez toute l"aide
+                    médicale nécessaire pour survivre.
+                </p>
+                <p class="col-12 story_div_p">
+                    Mais à votre gauche, Romano Del Fallet marche, seul et le dos tourné à vous. Vous sentez votre sang ne
+                    faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
+                </p>
+                <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Quel faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Allez vers la ville
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Tuez Romano Del Fallet
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("nosbrsLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Self contrôle.</h1>
+                <img src="https://zupimages.net/up/19/45/do9g.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous sentez la colère vous envahir. Elle vous murmure d’une voix calme et charmante d’oublier
+                    votre propre sécurité et d’attaquer à vue. Mais vous serrez les poings, respirez profondément et gardez
+                    votre calme. Les sbires vous recherchent dans un chaos total. Les disputent s’enchaînent et les avis
+                    divergent. L’un d’entre eux reste à l’écart, incertain de ce qu’il doit faire. Ses camarades avancent et le
+                    laisse derrière eux. Rapidement le groupe ce divise et se disperse. Vous saisissez l’occasion pour attaquer
+                    le sbire solitaire. Choqué, il ne réagit pas quand votre lame s’infiltre dans sa gorge. Vous le traînez sur le
+                    bas coté et vous emparez de ses vêtements.
+                </p>
+                <p class="col-12 story_div_p">
+                    Déguisé, vous pouvez à présent avancer sur la route sans attirer l’attention. Les vêtements du
+                    jeune homme que vous venez d’assassiner sont quelque peu petit pour vous, mais pas inconfortable. Vous
+                    commencez donc à marcher, et un nouveau dilemme se présente à vous. Le dernier.
+                </p>
+                <p class="col-12 story_div_p">
+                    À votre droite vous apercevez les portes d’une gigantesque ville. À l"intérieur vous y trouverez
+                    toute l"aide médicale nécessaire pour survivre.
+                </p>
+                <p class="col-12 story_div_p">
+                    Mais à votre gauche, Romano Del Fallet marche, seul et le dos tourné à vous. Vous sentez votre
+                    sang ne faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
+                </p>
+                <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Quel faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Allez vers la ville
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Tuez Romano Del Fallet
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("pontdefLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Plus le temps de rien.</h1>
+                <img src="https://zupimages.net/up/19/45/42nf.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vos faites un premier pas. Vous vous tenez aux imposantes mais fragiles cordes et commencez à
+                    enjamber le gigantesque vide. Un immense vertige vous retourne l’estomac, vous fait douter de votre
+                    équilibre et de votre force. Les mains crispés sur les cordages, vous vous obligez à les desserrer pour
+                    prendre appui plus loin. Vos jambes suivent le rythme lent que votre terreur vous impose. Vous prenez
+                    beaucoup trop de temps à avancer, si bien que les sbires Del Fallet arrivent au pont alors qu’il ne vous
+                    reste que trois pas à faire pour traverser le pont. L’un d’eux lève son arc et bande une flèche vers vous.
+                </p>
+                <p class="col-12 story_div_p">
+                    Deux choix se combattent dans votre esprit. Vous pouvez essayer un saut ultime et reprendre
+                    votre course avec un risque que la flèche vous touche, ou couper les liens pour esquiver la flèche mais
+                    prendre le risque de ne pas posséder la force nécessaire pour vous tenir aux liens et remonter.
+                </p>
+                <img src="https://zupimages.net/up/19/45/l205.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Vous sautez
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Vous coupez les liens
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("sbrsLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Fallet garder son calme lol. Votre rage l’emporte sur votre raison.</h1>
+                <img src="https://zupimages.net/up/19/45/q5hi.jpeg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous courrez vers les six sbires occupés à vous chercher et
+                    à se disputer. Votre arrivée et votre cri de rage les surprend. Ils se paralysent et ne pensent pas de suite à
+                    dégainer leur arme pour se défendre. Votre épée se défoule sur le premier d’entre eux sans que personne
+                    ne réagit. Au-dessus de votre victime, vous vous déchaînez sans retenue sur lui avant de lever votre
+                    regard sur votre cible suivante.
+                </p>
+                <p class="col-12 story_div_p">
+                    C’est à cette seconde mort que vos ennemis prennent conscience du
+                    danger de votre assaut et réagissent. Ils vous frappent de leur lame avec force et brutalité, les bras crispés
+                    de peur. Ils hurlent bien plus fort que vous à présent, désireux de vous tuer pour survivre. Votre mise à
+                    mort est l’assurance que del Fallet ne les punira pas. Un échec est synonyme de mise à mort dans leur
+                    milieu.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous esquivez les premiers coups, frappez et tuez encore deux d’entre eux avant de vous
+                    effondrer sur le sol. Le combat prend fin. L’un des deux survivants tombe à son tour sur le sol, le regard
+                    vide. Le dernier fuit pour chercher de l’aide et vous laisse agonir.
+                </p>
+                <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Dommage.
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("suitepioufLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Ça passe !!!!!</h1>
+                <img src="https://zupimages.net/up/19/45/po2h.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vous saisissez votre épée, rattraper votre courage, et couper les cordes d’un coup sec. Surpris, les
+                    sbires de del Fallet cessent tout mouvement. Ils vous observent, la bouche béante, attraper les cordes alors
+                    que vous chutez vers une mort certaine. Tout aussi choquée, la flèche bandée part sans prévenir. Elle se
+                    fracasse contre la colline à quelques centimètres de votre visage. Suspendu, les bras et les mains en feux,
+                    vous concentrez toutes vos forces pour monter. La terre est assez rugueuse pour vous offrir une bonne
+                    adhérence. Les planches sont aussi une excellente prise pour vous permettre de grimper. Centimètre après
+                    centimètre, secondes après secondes vous gagnez ce terrible combat contre la douleur et la fièvre.
+                </p>
+                <p class="col-12 story_div_p">
+                    Vous réussissez tant bien que mal à retrouver la terre ferme, faible, essoufflée, mais en vie. Après un coup
+                    d’œil moqueur et un geste des plus obscènes envers vos poursuivants immobiles vous reprenez la route.
+                    Après plusieurs dizaines de minutes de marche un nouveau dilemme se présente à vous. Le dernier.
+                    À votre gauche vous apercevez les portes d’une gigantesque ville. À l"intérieur vous y trouverez toute
+                    l"aide médicale nécessaire pour survivre.
+                </p>
+                <p class="col-12 story_div_p">
+                    Mais à votre droite, Romano Del Fallet marche, seul et le dos tourné à vous. Vous sentez votre sang ne
+                    faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
+                </p>
+                <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Allez vers la ville
+                    </label>
+                    <label class="btn btn-secondary story_path_label" for="b">
+                        <input type="radio" name="b" id="b" autocomplete="off"> Tuez Romano Del Fallet
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("suitesauteLevel4") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Pas de chance.</h1>
+                <img src="https://zupimages.net/up/19/45/5ieh.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-10 story_div_p">
+                    Vous concentrez votre force pour sauter aussi haut et vite que possible. Malheureusement les
+                    sbires Del Fallet coupent les cordes sans une once d’hésitation. Votre pousser perd en puissance et en
+                    précision alors que la flèche s’enfonce dans votre épaule. Cette nouvelle blessure vous empêche
+                    d’attraper le bord du pont. Les planches craquent sous votre poids.
+                </p>
+                <img src="https://zupimages.net/up/19/45/i5ph.jpg" class="col-12 story_img" alt="image">
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Dommage.
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("mortfalletLevel5") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Tant pis pour votre vie.</h1>
+                <img src="https://zupim" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Vos yeux restent braqués sur Del Fallet. Malgré votre corps faible et blessé, vous avancez d’un
+                    pas assuré vers lui. Il vous entend arriver et se tourne. Son immonde sourire vous accueil, ainsi qu’une
+                    épée a deux mains qu’il dégaine avec nonchalance. Vous engagez le combat sans attendre. Mais vous
+                    vous êtes surestimé, et même toute votre haine et votre rage ne peuvent vous aider à résister aux coups de
+                    lame qu’il vous assène. Vos bras tremblent, faiblissent, puis flanchent. Et vos jambes font de même. Vous
+                    vous retrouvez à terre, sur le dos, à la merci de votre ennemi. Il vous immobilise de son pied et lève son
+                    arme. Sa lame s’enfonce dans votre poitrine. Sur de sa victoire, il ne prend conscience que vous levez le
+                    bras dans un dernier effort. Vous plantez votre épée dans son ventre.
+                </p>
+                <p class="col-12 story_div_p">
+                    Del Fallet s’écroule à vos côtés, et vous laissez patienter la mort le temps de l’observer périr.
+                </p>
+                <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Dommage !!
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
+            </div>
+        </section>
+
+    {% elseif level is same as("villeLevel5") %}
+        <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Vie.</h1>
+                <img src="https://zupimages.net/up/19/45/2you.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    C’est le cœur rempli de remords et de honte que vous lâchez votre arme de service et vous
+                    détournez du meurtrier de votre moitié. Peut-être venez-vous de laisser s’échapper la seule occasion de
+                    vous venger ? Peut-être aurez-vous eu assez de force pour le tuer et revenir à temps vous faire soigner ?
+                </p>
+                <p class="col-12 story_div_p">
+                    Peut-être...
+                </p>
+                <p class="col-12 story_div_p">
+                    Mais votre fatigue, la douleur de vos battements de cœur et de votre respiration surpassent votre
+                    haine et votre désespoir. C’est avec une lenteur extrême mélangée à une fièvre intense que vous passez les
+                    porte en bois et vous écroulez sur le sol d’épuisement.
+                </p>
+                <img src="https://zupimages.net/up/19/45/6l95.gif" class="col-12 story_img" alt="image">
+                <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                    <label class="btn btn-secondary active story_path_label" for="a">
+                        <input type="radio" name="a" id="a" autocomplete="off" checked> Vous avez survécu !
+                    </label>
+                </div>
+            </div>
+            <div class="row story_div">
+                <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
+            </div>
+        </section>
+    {% endif %}
+{% endblock %}
