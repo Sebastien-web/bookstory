@@ -1,6 +1,6 @@
 {% extends 'layout.html.twig' %}
 
-{% block stage %}
+{% block stage %}       
     {% if level is same as("foretLevel2") %}
         <section class="container story">
             <div class="row story_div_h1">
@@ -581,5 +581,46 @@
                 <button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Recommencer l"aventure</button>
             </div>
         </section>
+        {% else %}
+            <section class="container story">
+            <div class="row story_div_h1">
+                <h1 class="col-12 mt-3 story_div_h1">Vous voilà bien seul devant un premier dilemme.</h1>
+                <img src="https://zupimages.net/up/19/45/sc31.jpg" class="col-12 mb-3 story_img" alt="image">
+            </div>
+            <div class="row story_div_row">
+                <p class="col-12 story_div_p">
+                    Après avoir parcouru de longues routes isolées de toute civilisation, et vous être perdu, vous vous retrouvez face à un embranchement. Deux routes s'offrent à
+                    vous. Vous ne pouvez en choisir qu'une seule car derrière vous, les sbires de Romano Del Fallet vous pourchassent et gagnent du terrain.
+                </p>
+                <p class="col-12 story_div_p">
+                    À votre gauche se dresse une immense forêt. Vous êtes incapable de savoir où elle se termine. Vous y
+                    entendez des animaux hurler au loin dans cette direction. Les trop nombreux arbres coupent la lumière du
+                    soleil, et vous jurez y apercevoir des yeux lumineux vous observer au milieu des épaisses ténèbres. Mais à
+                    l'intérieur vous aurez des chances de passer inaperçu et de semer vos poursuivants.
+                </p>
+                <p class="col-12 story_div_p">
+                    À votre droite un long chemin de terre vous emmène vers des collines d'aspect hospitalières. L'herbe y
+                    abonde et d'en haut, vous pourrez peut-être vous repérer et, ou, apercevoir un semblant de civilisation.
+                    Malheureusement vous y serez à découvert et vulnérable, et la pente ardue ralentira votre avancé déjà chaotique.
+                </p>
+                <img src="https://zupimages.net/up/19/45/3yxd.jpg" class="col-12 story_img" alt="image">
+                <p class="col-12 story_div_p pt-3">Que faîtes vous ?</p>
+
+                <form class "row caractere_form align-items-end d-flex flex-column" action="stage">
+                    <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
+                        <label class="btn btn-secondary active story_path_label" for="a">
+                            <input type="radio" name="foretLevel2" id="foretLevel2" autocomplete="off" checked> Forêt
+                        </label>
+                        <label class="btn btn-secondary story_path_label" for="b">
+                            <input type="radio" name="montagneLevel2" id="montagneLevel2" autocomplete="off"> Montagne
+                        </label>
+                    </div>
+                    <div class="row story_div">
+                        <button type="submit" class="btn btn-dark mx-auto mb-3 row story_div_button">Continuer l"aventure!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     {% endif %}
+
 {% endblock %}
