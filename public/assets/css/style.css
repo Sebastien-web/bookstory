@@ -29,6 +29,8 @@ img.slide_div_carousel_img--height.d-block.w-100
     height: 40px;
     width: 100%;
     z-index: 1030;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -40,6 +42,9 @@ img.slide_div_carousel_img--height.d-block.w-100
     z-index: 1030;
 }
 
-button.btn.btn-dark.mx-auto {
-    margin-bottom: 3rem;
+.paddingbutton {
+    margin-bottom: 3rem!important;
 } 
+h1 {
+    margin-top: 3rem;
+}
