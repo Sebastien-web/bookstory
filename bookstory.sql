@@ -7,11 +7,11 @@ USE `bookstory`;
 DROP TABLE IF EXISTS `character`;
 CREATE TABLE `character` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `gender` STRING NOT NULL,
-  `name` STRING NOT NULL,
-  `alias` STRING NOT NULL,
-  `picture` STRING NOT NULL,
-  `description` STRING NOT NULL,
+  `gender` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `alias` varchar(255) NOT NULL,
+  `picture` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
   `game_id` INT NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
@@ -19,11 +19,11 @@ CREATE TABLE `character` (
 -- Table content for table `character`
 --
 LOCK TABLES `character` WRITE;
-INSERT INTO `character`(gender,name,picture,description) VALUES 
-('female','adventurer_female'),
-('male','adventurer_male'),
-('female','ferret_female'),
-('male','ferret_male');
+INSERT INTO `character`(gender,name,picture,alias,description, game_id) VALUES 
+('female','adventurer_female','adventurer_female_picture','','',0),
+('male','adventurer_male','adventurer_male_picture','','',0),
+('female','ferret_female','ferret_female_picture','','',0),
+('male','ferret_male','ferret_male_picture','','',0);
 UNLOCK TABLES;
 
 --
@@ -32,9 +32,9 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `stage`;
 CREATE TABLE `stage` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `content` STRING NOT NULL,
+  `content` varchar(255) NOT NULL,
   `obstacle_id` INT NOT NULL,
-  `picture` STRING NOT NULL,
+  `picture` varchar(255) NOT NULL,
   FOREIGN KEY(obstacle_id) REFERENCES obstacle(id),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
@@ -42,7 +42,7 @@ CREATE TABLE `stage` (
 -- Table content for table `stage`
 --
 LOCK TABLES `stage` WRITE;
-INSERT INTO `stage` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
+--INSERT INTO `stage` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
 UNLOCK TABLES;
 
 --
@@ -62,7 +62,7 @@ CREATE TABLE `game` (
 -- Table content for table `game`
 --
 LOCK TABLES `game` WRITE;
-INSERT INTO `game` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
+--INSERT INTO `game` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
 UNLOCK TABLES;
 
 --
@@ -71,10 +71,10 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `obstacle`;
 CREATE TABLE `obstacle` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` STRING NOT NULL,
+  `name` varchar(255) NOT NULL,
   `annoyance_degree` INT NOT NULL,
-  `description` STRING NOT NULL,
-  `picture` STRING NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `picture` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
@@ -82,7 +82,7 @@ CREATE TABLE `obstacle` (
 -- Table content for table `obstacle`
 --
 LOCK TABLES `obstacle` WRITE;
-INSERT INTO `obstacle` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
+--INSERT INTO `obstacle` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
 UNLOCK TABLES;
 
 --
@@ -91,15 +91,16 @@ UNLOCK TABLES;
 DROP TABLE IF EXISTS `customer`;
 CREATE TABLE `customer` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `first_name` STRING NOT NULL,
-  `last_name` STRING NOT NULL,
-  `alias` STRING NOT NULL,
-  `email` STRING NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `alias` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL, 
+  `email` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 --
 -- Table content for table `customer`
 --
 LOCK TABLES `customer` WRITE;
-INSERT INTO `customer` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
+--INSERT INTO `customer` VALUES (1,'Ross','Geller'),(2,'Monica','Geller'),(3,'Phoebe','Buffay'),(4,'Joey','Tribbiani');
 UNLOCK TABLES;
