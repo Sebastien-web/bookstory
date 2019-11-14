@@ -40,12 +40,6 @@
 <section class="container caractere">
     <div>
         <p class="col-12 mt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </p>
-        <p class="col-12 mt-3">
             Votre échec pèse sur vos épaules, et votre moral. Pensiez-vous vraiment pouvoir combattre Romano Del
             Fallet et ses centaines de sbires à vous seul ? Vous avez attaqué sa forteresse, tenté de vous infiltrer pour
             sauver votre famille. Mais sans succès. Votre âme sœur a rendu l’âme devant vous, étranglé par les mains
@@ -66,8 +60,99 @@
         <div class="row caractere_div">
             <h1 class="col-xl-7 mt-3 caractere_div_h1">Choix de la classe</h1>
         </div>
-        <!--FORMULAIRE DE CHOIX-->
         <form class="row caractere_form align-items-end d-flex flex-column" action="" methode="">
+            <label for="pseudo" class="col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label">Pseudo*</label>
+            <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 mt-3 caractere_form_input-pseudo mx-auto" name="pseudo" id="pseudo" placeholder="Votre meilleur pseudo !">
+        </form>
+        <!--CHOIX MASCULIN-->
+        {# {% if gender is same as("male") %} #}
+        <!--AVENTURIER-->
+        <div class="card caractere_div-classe mb-3 pt-3 col-xl-6 col-6 mx-auto">
+            <img class="card-img-top" src="https://zupimages.net/up/19/45/8fek.jpg" alt="Card image cap">
+            <div class="row card-body">
+                <h5 class="card-title caractere_div_h5">Aventurier</h5>
+                <p class="card-text caractere_div_p">
+                    Il est beau, il est fort, prêt à combattre l'ennemi. Sa force n'a d'égal que son courage.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Intelligence : 16</li>
+                    <li class="caractere_liste-item mr-1">Agilité : 23</li>
+                    <li class="caractere_liste-item mr-1">Force : 25</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 15</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
+                {# <a href="#"> <button type="button" class="btn btn-primary caractere_div-link mx-auto" name="adventurer" id="female" autocomplete="off" checked>Choisir</button></a> #}
+                <div class="row button_div">
+                <a href="/Story/stage/stage1"><button type="button" class="btn btn-dark mx-auto">Commencer l'aventure avec ce personnage !</button></a>
+                </div>
+            </div>
+        </div>
+        <!--FURET-->
+        <div class="card caractere_div-classe mb-3 pt-3 col-xl-6 col-6 mx-auto">
+            <img class="card-img-top" src="https://zupimages.net/up/19/45/xdl4.jpg" alt="Card image cap">
+            <div class="row card-body">
+                <h5 class="card-title caractere_div_h5">Furet</h5>
+                <p class="card-text caractere_div_p">
+                    Il est agile, rusé comme le renard et ne fera aucun cadeau. Laché dans la forêt, aucun terrier ne lui résistera.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Intelligence : 10</li>
+                    <li class="caractere_liste-item mr-1">Agilité : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 20</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
+                {# <a href="#"> <button type="button" class="btn btn-primary caractere_div-link mx-auto" name="adventurer" id="female" autocomplete="off" checked>Choisir</button></a> #}
+                <div class="row button_div">
+                <a href="/Story/stage/stage1"><button type="button" class="btn btn-dark mx-auto">Commencer l'aventure avec ce personnage !</button></a>
+                </div>
+            </div>
+        </div>
+        <!--CHOIX FEMININ-->
+        {# {% elseif gender is same as("female") %} #}
+        <!--AVENTURIERE-->
+        {# <div class="card caractere_div-classe mb-3 pt-3 col-xl-6 col-6 mx-auto">
+            <img class="card-img-top" src="https://zupimages.net/up/19/45/pz4e.jpg" alt="Card image cap">
+            <div class="row card-body">
+                <h5 class="card-title caractere_div_h5">Aventurière</h5>
+                <p class="card-text caractere_div_p">
+                    La carte maîtresse de toute aventure obscure, qu'elle saura mener d'une main de fer.
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Intelligence :26</li>
+                    <li class="caractere_liste-item mr-1">Agilité : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 15</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
+                <div class="row button_div">
+                <a href="/Story/stage/stage1"><button type="button" class="btn btn-dark mx-auto">Commencer l'aventure avec ce personnage !</button></a>
+                </div>
+            </div>
+        </div>
+        <!--FURETTE-->
+        <div class="card caractere_div-classe mb-3 pt-3 col-xl-6 col-6 mx-auto">
+            <img class="row card-img-top" src="https://zupimages.net/up/19/45/997d.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title caractere_div_h5">Furette</h5>
+                <p class="card-text caractere_div_p">
+                Fidèle à son honneur et à ses principes, sa sagesse est aussi grande que son élégance
+                </p>
+                <ul class="col-12 caractere_liste">
+                    <li class="caractere_liste-item mr-1">Intelligence : 16</li>
+                    <li class="caractere_liste-item mr-1">Agilité : 28</li>
+                    <li class="caractere_liste-item mr-1">Force : 5</li>
+                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
+                </ul>
+                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
+                <div class="row button_div">
+                <a href="/Story/stage/stage1"><button type="button" class="btn btn-dark mx-auto">Commencer l'aventure avec ce personnage !</button></a>
+                </div>
+            </div>
+        </div> #}
+        {# {% endif %} #}
+        <!--FORMULAIRE DE CHOIX-->
+        {# <form class="row caractere_form align-items-end d-flex flex-column" action="" methode="">
             <label for="pseudo" class="col-sm col-lg-2 col-xl-7 mt-3 caractere_form_label">Pseudo*</label>
             <input type="text" class="form-control col-sm-12 col-lg-2 col-xl-3 mt-3 caractere_form_input-pseudo mx-auto" name="pseudo" id="pseudo" placeholder="Votre meilleur pseudo !">
             <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 caractere_form_div" data-toggle="buttons">
@@ -81,90 +166,17 @@
                 </label>
             </div>
             <div class="btn-group btn-group-toggle mx-auto mb-3 caractere_form_div" data-toggle="buttons">
-                <label class="btn btn-secondary active" for="aventurer">
-                    <input type="radio" name="aventurer" id="aventurer" autocomplete="off" checked> Aventurier
+                <label class="btn btn-secondary active" for="adventurer">
+                    <input type="radio" name="adventurer" id="adventurer" autocomplete="off" checked> Aventurier
                 </label>
                 <label class="btn btn-secondary" for="ferret">
                     <input type="radio" name="ferret" id="ferret" autocomplete="off" checked> Furet
                 </label>
             </div>
-        </form>
-        <!--CHOIX MASCULIN-->
-        {% if gender is same as("male") %}
-        <!--AVENTURIER-->
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
-            <img class="card-img-top" src="https://zupimages.net/up/19/45/8fek.jpg" alt="Card image cap">
-            <div class="row card-body">
-                <h5 class="card-title caractere_div_h5">Aventurier</h5>
-                <p class="card-text caractere_div_p">
-                    Some quick example text to build on the card title and make up the bulk of the card"s content.
-                </p>
-                <ul class="col-12 caractere_liste">
-                    <li class="caractere_liste-item mr-1">Int : 16</li>
-                    <li class="caractere_liste-item mr-1">Agi : 28</li>
-                    <li class="caractere_liste-item mr-1">Force : 25</li>
-                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
-                </ul>
-                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
-            </div>
-        </div>
-        <!--FURET-->
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
-            <img class="card-img-top" src="https://zupimages.net/up/19/45/xdl4.jpg" alt="Card image cap">
-            <div class="row card-body">
-                <h5 class="card-title caractere_div_h5">Furet</h5>
-                <p class="card-text caractere_div_p">
-                    Some quick example text to build on the card title and make up the bulk of the card"s content.
-                </p>
-                <ul class="col-12 caractere_liste">
-                    <li class="caractere_liste-item mr-1">Int : 16</li>
-                    <li class="caractere_liste-item mr-1">Agi : 28</li>
-                    <li class="caractere_liste-item mr-1">Force : 25</li>
-                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
-                </ul>
-                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
-            </div>
-        </div>
-        <!--CHOIX FEMININ-->
-        {% elseif gender is same as("female") %}
-        <!--AVENTURIERE-->
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
-            <img class="card-img-top" src="https://zupimages.net/up/19/45/pz4e.jpg" alt="Card image cap">
-            <div class="row card-body">
-                <h5 class="card-title caractere_div_h5">Aventurière</h5>
-                <p class="card-text caractere_div_p">
-                    Some quick example text to build on the card title and make up the bulk of the card"s content.
-                </p>
-                <ul class="col-12 caractere_liste">
-                    <li class="caractere_liste-item mr-1">Int : 16</li>
-                    <li class="caractere_liste-item mr-1">Agi : 28</li>
-                    <li class="caractere_liste-item mr-1">Force : 25</li>
-                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
-                </ul>
-                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
-            </div>
-        </div>
-        <!--FURETTE-->
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-7 col-12 mx-auto">
-            <img class="row card-img-top" src="https://zupimages.net/up/19/45/997d.png" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title caractere_div_h5">Furette</h5>
-                <p class="card-text caractere_div_p">
-                    Some quick example text to build on the card title and make up the bulk of the card"s content.
-                </p>
-                <ul class="col-12 caractere_liste">
-                    <li class="caractere_liste-item mr-1">Int : 16</li>
-                    <li class="caractere_liste-item mr-1">Agi : 28</li>
-                    <li class="caractere_liste-item mr-1">Force : 25</li>
-                    <li class="caractere_liste-item mr-1">Sagesse : 25</li>
-                </ul>
-                <a href="#" class="btn btn-primary caractere_div-link mx-auto">En savoir plus</a>
-            </div>
-        </div>
-        {% endif %}
+        </form> #}
         <!--FIN DE CHOIX COMMENCER AVENTURE-->
-        <div class="row button_div">
-            <button type="button" class="btn btn-dark mx-auto paddingbutton">Commencer l'aventure!</button>
-        </div>
+        {# <div class="row button_div">
+            <button type="button" class="btn btn-dark mx-auto"><a href="/Story/stage/stage1">Commencer l'aventure!</a></button>
+        </div> #}
 </section>
 {% endblock %}

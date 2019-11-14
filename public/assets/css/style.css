@@ -2,6 +2,11 @@ body
 {
     background-color: whitesmoke;
 }
+main
+{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
 p
 {
     font-family: acumin-pro;
