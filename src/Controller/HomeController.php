@@ -19,11 +19,16 @@ class HomeController extends AbstractController
      * @throws \Twig\Error\RuntimeError
      * @throws \Twig\Error\SyntaxError
      */
-    public function index($parameter)
+    // public function index($parameter)
+    // {
+    //     return $this->twig->render('Home/index.html.twig', [
+    //         'gender' => $parameter
+    //     ]);
+    // }
+
+    public function index()
     {
-        return $this->twig->render('Home/index.html.twig', [
-            'gender' => $parameter
-        ]);
+        return $this->twig->render('Home/index.html.twig');
     }
 
     public function contact()
