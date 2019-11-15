@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-class ItemCharacterManager  extends AbstractManager
+class ItemCharacterManager extends AbstractManager
 {
 /**
  *

@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-class ItemGameManager  extends AbstractManager
+class ItemGameManager extends AbstractManager
 {
 /**
  *
