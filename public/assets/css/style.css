@@ -67,6 +67,13 @@ img.slide_div_carousel_img--height.d-block.w-100
     border-radius: 50px;
 }
 
+.audio {
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
 /* .slide_div_slide_h1 {display : none} */
 
 @media (min-width: 600px) { 

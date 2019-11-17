@@ -1,7 +1,14 @@
 {% extends 'layout.html.twig' %}
 
-{% block stage %}     
-
+{% block stage %}
+    <div class="audio">
+        <audio controls="controls" loop>
+            <source src="/assets/audio/epic01.mp3" type="audio/mp3" />
+            <source src="/assets/audio/epic01.aac" type="audio/aac" />
+            <source src="/assets/audio/epic01.ogg" type="audio/ogg" />
+            Votre navigateur n'est pas compatible
+        </audio>
+    </div>
     {% if level is same as("stage1") %}
         <section class="container story">
             <div class="row story_div_h1">
