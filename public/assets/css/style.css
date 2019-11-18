@@ -20,11 +20,17 @@ li
 h1 {
     font-size: 1.5em;
 }
+@keyframes opacityAnim{
+    0% {opacity: 0};
+    100% {opacity: 1};
+}
 .story_img
 {
     height: 60vh;
     /* -webkit-animation: fade-in 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; */
-    animation: fade-in 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; 
+    /* animation: fade-in 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;  */
+    animation-name:opacityAnim;
+    animation-duration:6s;
 }
 img.slide_div_carousel_img--height.d-block.w-100
 {
@@ -71,7 +77,7 @@ img.slide_div_carousel_img--height.d-block.w-100
 
 @media (min-width: 600px) { 
     .slide_div_slide_h1 {display : block};
-    p
+    .p
     {
         font-size: 1em;
     }
