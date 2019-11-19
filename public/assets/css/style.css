@@ -9,7 +9,7 @@ main
 }
 p
 {
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-family: acumin-pro;
     text-align: justify;
 }
@@ -69,8 +69,8 @@ img.slide_div_carousel_img--height.d-block.w-100
 } 
 
 .apropos_image {
-    margin-top: 4rem;
-    border-radius: 50px;
+    
+    border-radius: 20px;
 }
 
 .audio {
@@ -101,4 +101,11 @@ img.slide_div_carousel_img--height.d-block.w-100
      display: flex;
      justify-content: center;
      flex-direction: row;
+ }
+ .carousel-text {
+     text-align: center;
+ }
+
+ img.card-img-top {
+     height: 28rem;
  }
