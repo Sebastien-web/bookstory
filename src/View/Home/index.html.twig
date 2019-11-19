@@ -1,7 +1,28 @@
 {% extends 'layout.html.twig' %}
-
+{% block bird %}
+<h1 class="bookstory tracking-in-contract">Bookstory</h1>
+    <div class="container_bird">
+	
+	<div class="bird-container bird-container--one">
+		<div class="bird bird--one"></div>
+	</div>
+	
+	<div class="bird-container bird-container--two">
+		<div class="bird bird--two"></div>
+	</div>
+	
+	<div class="bird-container bird-container--three">
+		<div class="bird bird--three"></div>
+	</div>
+	
+	<div class="bird-container bird-container--four">
+		<div class="bird bird--four"></div>
+	</div>
+	
+</div>
+{% endblock %}
 {% block carousel %}
-<div class="container mt-5 slide_div_slide">
+<div class="container slide_div_slide">
     <div id="carouselExampleIndicators" class="slide_div_slide--carousel carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
