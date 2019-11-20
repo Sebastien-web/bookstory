@@ -19,7 +19,7 @@ class StageController extends AbstractController
 {
     public function show(string $stage)
     {
-        $stageManager = new StageManager('level');
+        $stageManager = new StageManager();
         $stage = $stageManager->selectOneByStage($stage);
         return $this->twig->render('Story/show.html.twig', ['stage' => $stage]);
     }
