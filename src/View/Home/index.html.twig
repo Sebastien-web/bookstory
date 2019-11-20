@@ -55,7 +55,11 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <div class="player">
+</div>
+{% endblock %}
+{% block audio %}
+<div class="container">
+    <div class="col player">
         <div id="info" class="info">
             <span class="artist">Book Story</span>
             <span class="name">Wild Team</span>
@@ -72,18 +76,17 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="audio">
-        <audio loop class="audio_player">
-            <source src="/assets/audio/epic02.mp3" type="audio/mp3" />
-            <source src="/assets/audio/epic02.aac" type="audio/aac" />
-            <source src="/assets/audio/epic02.ogg" type="audio/ogg" />
-            Votre navigateur n'est pas compatible
-        </audio>
-    </div>
+<div class="audio">
+    <audio loop class="audio_player">
+        <source src="/assets/audio/epic02.mp3" type="audio/mp3" />
+        <source src="/assets/audio/epic02.aac" type="audio/aac" />
+        <source src="/assets/audio/epic02.ogg" type="audio/ogg" />
+        Votre navigateur n'est pas compatible
+    </audio>
 </div>
 {% endblock %}
-
 {% block card %}
 <!-- Debut de la section choix du caractere -->
 <section class="container caractere">

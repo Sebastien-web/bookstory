@@ -97,17 +97,6 @@ img.slide_div_carousel_img--height.d-block.w-100
 
 /* MUSIC PLAYER AUDIO*/
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
-html, body {
-    position: relative;
-    min-height: 100vh;
-    background-color: #FFF0F5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
 .player {
     position: relative;
@@ -160,7 +149,7 @@ html, body {
 }
 .player .control-panel {
     position: relative;
-    background-color: #fff;
+    background-color:rgba(255, 255, 255, 0.6);;
     border-radius: 15px;
     width: 300px;
     height: 80px;
@@ -184,8 +173,7 @@ html, body {
     top: 50%;
     left: 50%;
     width: 15px;
-    height: 15px;
-    background-color: #fff;
+    height: 15pxrgba(132, 132, 132, 0.3);;
     border-radius: 50%;
     z-index: 5;
     transform: translate(-50%, -50%);
@@ -237,8 +225,7 @@ html, body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 20px;
-    margin: 5px 0;
-    background-color: #fff;
+    margin: 5px 0rgba(132, 132, 132, 0.3);;
     cursor: pointer;
     transition: background-color .3s ease;
     -webkit-transition: background-color .3s ease;
@@ -265,8 +252,12 @@ html, body {
 /*FIN MUSIC PLAYER AUDIO*/
 
 
-@media (min-width: 600px) { 
-    .slide_div_slide_h1 {display : block};
+@media (min-width: 600px) 
+{ 
+    .slide_div_slide_h1 
+    {
+      display : block;
+    }
     .p
     {
         font-size: 1em;
@@ -277,7 +268,7 @@ html, body {
         font-size: 1em;
     }
 
-
+}
  .story_div {
      display: flex;
      justify-content: center;
@@ -376,6 +367,9 @@ h1.bookstory {
     }
     .container.slide_div_slide {
       display: block;
+    }
+    .player {
+      padding: 0!important;
     }
  }
  
