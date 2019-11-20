@@ -32,8 +32,27 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <div class="player">
+        <div id="info" class="info">
+            <span class="artist">Book Story</span>
+            <span class="name">Wild Team</span>
+            <div class="progress-bar">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div id="control-panel" class="control-panel">
+            <div class="album-art"></div>
+            <div class="controls">
+                <div class="prev"></div>
+                <div id="play" class="play"></div>
+                <div class="next"></div>
+            </div>
+        </div>
+    </div>
+
     <div class="audio">
-        <audio controls="controls" loop>
+        <audio loop class="audio_player">
             <source src="/assets/audio/epic02.mp3" type="audio/mp3" />
             <source src="/assets/audio/epic02.aac" type="audio/aac" />
             <source src="/assets/audio/epic02.ogg" type="audio/ogg" />
