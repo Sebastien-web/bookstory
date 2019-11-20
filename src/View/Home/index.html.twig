@@ -1,7 +1,28 @@
 {% extends 'layout.html.twig' %}
-
+{% block bird %}
+<h1 class="bookstory tracking-in-contract">Bookstory</h1>
+    <div class="container_bird">
+	
+	<div class="bird-container bird-container--one">
+		<div class="bird bird--one"></div>
+	</div>
+	
+	<div class="bird-container bird-container--two">
+		<div class="bird bird--two"></div>
+	</div>
+	
+	<div class="bird-container bird-container--three">
+		<div class="bird bird--three"></div>
+	</div>
+	
+	<div class="bird-container bird-container--four">
+		<div class="bird bird--four"></div>
+	</div>
+	
+</div>
+{% endblock %}
 {% block carousel %}
-<div class="container mt-5 slide_div_slide">
+<div class="container slide_div_slide">
     <div id="carouselExampleIndicators" class="slide_div_slide--carousel carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,7 +117,7 @@
     {# {% if gender is same as("male") %} #}
     <!--AVENTURIER-->
     <div class="row card-body mx-auto">
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-5 mr-5 mx-auto">
+        <div class="card caractere_div-classe mb-3 pt-3 col-xl-5 mr-5 mx-auto color-background">
             <h4 class="card-title caractere_div_h4">Aventurier</h4>
             <img class="card-img-top" src="https://zupimages.net/up/19/45/8fek.jpg" alt="Card image cap">
             <div class="row card-body">
@@ -143,7 +164,7 @@
             {# </div> #}
         </div>
         <!--FURET-->
-        <div class="card caractere_div-classe mb-3 pt-3 col-xl-5 mx-auto">
+        <div class="card caractere_div-classe mb-3 pt-3 col-xl-5 mx-auto color-background">
             <h4 class="card-title caractere_div_h4">Furet</h4>
             <img class="card-img-top" src="https://zupimages.net/up/19/45/xdl4.jpg" alt="Card image cap">
             <div class="row card-body">
