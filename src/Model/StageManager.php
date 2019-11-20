@@ -4,9 +4,19 @@ namespace App\Model;
 
 class StageManager extends AbstractManager
 {
-/**
- *
- */
+    /**
+     *
+     */
+    const TABLE = 'level';
+
+    /**
+     *  Initializes this class.
+     */
+    public function __construct()
+    {
+        parent::__construct(self::TABLE);
+    }
+
     public function selectOneByStage(string $stage)
     {
         // prepared request
