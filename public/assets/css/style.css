@@ -339,12 +339,28 @@ h1.bookstory {
   {
     display: none;
   }
+  @media (min-width: 700px) 
+  { 
+      h1.bookstory 
+      {
+          font-size: 8em;
+               
+      }
+  }
+  @media (min-width: 800px) 
+  { 
+      h1.bookstory 
+      {
+          font-size: 8em;
+               
+      }
+  }
 
-@media (min-width: 800px) 
+@media (min-width: 1100px) 
 { 
     h1.bookstory 
     {
-        font-size: 19em;
+        font-size: 12em;
              
     }
     .container_bird {
@@ -373,7 +389,14 @@ h1.bookstory {
     }
  }
  
-
+ @media (min-width: 1800px) 
+ { 
+     h1.bookstory 
+     {
+         font-size: 19em;
+              
+     }
+ }
 
 
 
