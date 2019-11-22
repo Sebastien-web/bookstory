@@ -10,7 +10,7 @@ src: url("/assets/fonts/godofwar/GODOFWAR.TTF");
 body
 {
     font-family: "Morris";
-    background: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-wood-grain-parchment-background-material-image_162557.jpg);
+    background: url("/assets/images/fond-ecran.jpg");
     background-size:cover ;
     
 }
@@ -190,7 +190,7 @@ img.slide_div_carousel_img--height.d-block.w-100
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80px;
-    background-image: url("https://zupimages.net/up/19/47/kwqj.jpg");
+    background-image: url("/assets/images/cd-fantasy.jpg");
 }
 .player .control-panel.active .album-art {
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
@@ -410,7 +410,7 @@ h1.bookstory {
 }
 
 .bird {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
+  background-image: url("/assets/images/animation-oiseau.svg");
   background-size: auto 100%;
   width: 88px;
   height: 125px;

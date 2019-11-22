@@ -27,7 +27,7 @@ INSERT INTO `level` VALUES
 (1,'stage1','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vous voilà bien seul devant un premier dilemme.</h1>
-                <img src="https://zupimages.net/up/19/45/sc31.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/montagne.jpg" class="col-12 mb-3 story_img" alt="montagne">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -45,7 +45,7 @@ INSERT INTO `level` VALUES
                 abonde et d\'en haut, vous pourrez peut-être vous repérer et, ou, apercevoir un semblant de civilisation.
                 Malheureusement vous y serez à découvert et vulnérable, et la pente ardue ralentira votre avancé déjà chaotique.
                 </p>
-                <img src="https://zupimages.net/up/19/45/3yxd.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/foret.jpg" class="col-12 story_img" alt="foret">
                 <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -58,7 +58,7 @@ INSERT INTO `level` VALUES
 (2,'foretLevel2','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vous avez choisi de vous enfoncer dans cette sombre et lugubre forêt.</h1>
-                <img src="https://zupimages.net/up/19/45/3fpa.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/foret-lugubre.jpg" class="col-12 mb-3 story_img" alt="foret-lugubre">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -80,7 +80,7 @@ INSERT INTO `level` VALUES
                 vous êtes de taille à combattre cet ennemi pour le moment invisible. Mais aurez-vous la force de fuir
                 assez rapidement pour espérer semer ce monstre ? Et ou votre fuite vous emmènera-t-elle ?
                 </p>
-                <img src="https://zupimages.net/up/19/45/q3gv.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/loup.jpg" class="col-12 story_img" alt="loup">
                 <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -94,7 +94,7 @@ INSERT INTO `level` VALUES
 (3,'attaqueLoupLevel3','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">A l’assaut !!!!</h1>
-                <img src="https://zupimages.net/up/19/45/3xp0.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/loup-combat.jpg" class="col-12 mb-3 story_img" alt="loup-combat">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -111,7 +111,7 @@ INSERT INTO `level` VALUES
                 loup s’assombrissent. Il pousse un hurlement. La végétation s’anime et deux autres loups apparaissent
                 derrière celui que vous combattez.
                 </p>
-                <img src="https://zupimages.net/up/19/45/d1j8.gif" class="col-12 story_img" alt="image">
+                <img src="/assets/images/combat.gif" class="col-12 story_img" alt="combat">
                 <p class="col-12 story_div_p">
                 Vous commencez à courir pour échapper aux grognements qui vous suivent. Vous ne sentez plus la
                 douleur de votre blessure empoisonnée, ni votre fatigue et votre faiblesse. Vos pas s’enchaînent avec
@@ -126,7 +126,7 @@ INSERT INTO `level` VALUES
                 les loups à distance.
                 </p>
                 <p class="col-12 story_div_p">Vous avez l’effet de surprise. Allez-vous les attaquer de front ou attendre qu’ils passent en essayant de rester discret ?</p>
-                <img src="https://zupimages.net/up/19/45/8w9o.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/panthere.jpg" class="col-12 story_img" alt="panthere">
                 <p class="col-12 story_div_p pt-3">Quel choix faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -140,7 +140,7 @@ INSERT INTO `level` VALUES
 (4,'fuiteLoupLevel3','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vous commencez à courir pour échapper aux grognements qui vous suivent !</h1>
-                <img src="https://zupimages.net/up/19/45/9wkc.gif" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/fuite.gif" class="col-12 mb-3 story_img" alt="fuite">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -161,7 +161,7 @@ INSERT INTO `level` VALUES
                 dans votre direction.
                 </p>
                 <p class="col-12 story_div_p">Vous avez l’effet de surprise. Allez-vous les attaquer de front ou attendre qu’ils passent en essayant de rester discret ?</p>
-                <img src="https://zupimages.net/up/19/45/8f7k.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/sbires-foret.jpg" class="col-12 story_img" alt="sbires-foret">
                 <p class="col-12 story_div_p pt-3">Quel choix faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -175,7 +175,7 @@ INSERT INTO `level` VALUES
 (5,'sbrsLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Fallet garder son calme lol. Votre rage l’emporte sur votre raison.</h1>
-                <img src="https://zupimages.net/up/19/45/q5hi.jpeg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/combat-guerriers.jpg" class="col-12 mb-3 story_img" alt="combat-guerriers">
             </div>
                 <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -200,7 +200,7 @@ INSERT INTO `level` VALUES
                 <p class="col-12 story_div_p">
                 Dommage
                 </p>
-                <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             </div>
             <div class="row story_div">
                 <a href ="stage1"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
@@ -209,7 +209,7 @@ INSERT INTO `level` VALUES
 (6,'nosbrsLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Self contrôle.</h1>
-                <img src="https://zupimages.net/up/19/45/do9g.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/guerrier-cacher.jpg" class="col-12 mb-3 story_img" alt="guerrier-cacher">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -234,7 +234,7 @@ INSERT INTO `level` VALUES
                 Mais à votre gauche, Romano Del Fallet marche, seul et le dos tourné à vous. Vous sentez votre
                 sang ne faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
                 </p>
-                <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/ville-obscur.jpg" class="col-12 story_img" alt="ville-obscur">
                 <p class="col-12 story_div_p pt-3">Quel faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -247,7 +247,7 @@ INSERT INTO `level` VALUES
 (7,'detourLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Dommage.</h1>
-                <img src="https://zupimages.net/up/19/45/1iko.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/loup-grrr.jpg" class="col-12 mb-3 story_img" alt="loup-grrr">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -266,7 +266,7 @@ INSERT INTO `level` VALUES
                 Vous ne voyez pas qui l’emporte, mais enfin le coup de crocs fatal achève vos souffrances.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             <div class="row story_div">
                 <a href ="stage1"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
@@ -274,7 +274,7 @@ INSERT INTO `level` VALUES
 (8,'felinLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Boum !!!</h1>
-                <img src="https://zupimages.net/up/19/45/eyq7.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/panthere-defense.jpg" class="col-12 mb-3 story_img" alt="panthere-defense">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -309,7 +309,7 @@ INSERT INTO `level` VALUES
                 faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/ville-obscur.jpg" class="col-12 story_img" alt="ville-obscur">
             <p class="col-12 story_div_p pt-3">Quel faites-vous ?</p>
             <div class="row story_div">
                 <a href ="mortfalletLevel5"><button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Vengeance!</button></a>
@@ -321,7 +321,7 @@ INSERT INTO `level` VALUES
 (9,'montagneLevel2','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Le dos courbé et les épaules voûtées..</h1>
-                <img src="https://zupimages.net/up/19/45/4tcr.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/montagne-paysage.jpg" class="col-12 mb-3 story_img" alt="montagne-paysage">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -336,7 +336,7 @@ INSERT INTO `level` VALUES
                 décidez de l’éviter vous perdriez une avance cruciale et vous retrouverez face à face. Peut-être pouvez les
                 combattre.
                 </p>
-                <img src="https://zupimages.net/up/19/45/0jwt.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/pont.jpg" class="col-12 story_img" alt="pont">
                 <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -350,7 +350,7 @@ INSERT INTO `level` VALUES
 (10,'nopontLevel3','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Froussard.</h1>
-                <img src="https://zupimages.net/up/19/46/2r2z.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/archer.jpg" class="col-12 mb-3 story_img" alt="archer">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -364,7 +364,7 @@ INSERT INTO `level` VALUES
                 Vous ne savez comment procéder. Devez tuer les deux sbires avant d’attaquer ce lâche d’archer ?
                 Ou devez vous esquivez les deux épéistes et vous occuper de lui en premier ?
                 </p>
-            <img src="https://zupimages.net/up/19/46/v5iv.jpeg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/sbires-montagne.jpg" class="col-12 story_img" alt="sbires-montagne">
             <p class="col-12 story_div_p pt-3">Que décidez-vous ?</p>
             </div>
             <div class="row story_div">
@@ -378,7 +378,7 @@ INSERT INTO `level` VALUES
 (11,'epeeLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Le courage paie.</h1>
-                <img src="https://zupimages.net/up/19/46/6bf4.png" class="col-12 story_img" alt="image">
+                <img src="/assets/images/peur.png" class="col-12 story_img" alt="peur">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -401,7 +401,7 @@ INSERT INTO `level` VALUES
                 L\’heure de la vengeance a-t-elle sonné ? 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/46/k8sy.jpg" class="col-12 mb-3 story_img" alt="image">
+            <img src="/assets/images/femme-epee.jpg" class="col-12 mb-3 story_img" alt="femme-epee">
             <p class="col-12 story_div_p pt-3">Que décidez-vous ?</p>
             <div class="row story_div">
                 <a href ="mortfalletLevel5"><button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Vengeance!</button></a>
@@ -414,7 +414,7 @@ INSERT INTO `level` VALUES
 (12,'archerLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Lache</h1>
-                <img src="https://zupimages.net/up/19/46/hr9n.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/blessure.jpg" class="col-12 mb-3 story_img" alt="blessure">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -433,7 +433,7 @@ INSERT INTO `level` VALUES
                 Vous lâchez votre épée, incapable de la tenir dans une quelconque main. 
                 Votre seule amie glisse loin de vous et de vos espoirs de survie. 
                 </p>
-            <img src="https://zupimages.net/up/19/45/i5ph.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort-crane.jpg" class="col-12 story_img" alt="mort-crane">
             </div>
             <div class="row story_div">
                 <a href ="stage1"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
@@ -443,7 +443,7 @@ INSERT INTO `level` VALUES
 (13,'pontLevel3','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Il est encore temps de changer d’avis.</h1>
-                <img src="https://zupimages.net/up/19/45/eb7f.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/montagne-pont.jpg" class="col-12 mb-3 story_img" alt="montagne-pont">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -462,7 +462,7 @@ INSERT INTO `level` VALUES
                 Votre décision se consiste-t-elle à choisir votre mort ? Tomber ou poignarder.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/n57v.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/blessure.jpg" class="col-12 story_img" alt="blessure">
             <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             <div class="row story_div">
                 <a href ="pontdefLevel4"><button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Aller sur le pont!</button></a>
@@ -475,7 +475,7 @@ INSERT INTO `level` VALUES
  (14,'pontdefLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Plus le temps de rien.</h1>
-                <img src="https://zupimages.net/up/19/45/42nf.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/pont-jungle.jpg" class="col-12 mb-3 story_img" alt="pont-jungle">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -492,7 +492,7 @@ INSERT INTO `level` VALUES
                 prendre le risque de ne pas posséder la force nécessaire pour vous tenir aux liens et remonter.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/l205.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/saut-du-pont.jpg" class="col-12 story_img" alt="saut-du-pont">
             <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             <div class="row story_div">
                 <a href ="suitesauteLevel4"><button type="button" class="btn btn-dark mx-auto mb-3 row story_div_button">Sauter!</button></a>
@@ -505,7 +505,7 @@ INSERT INTO `level` VALUES
 (15,'suitepioufLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Ça passe !!!!!</h1>
-                <img src="https://zupimages.net/up/19/45/po2h.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/ciseau-pont.jpg" class="col-12 mb-3 story_img" alt="ciseau-pont">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -528,7 +528,7 @@ INSERT INTO `level` VALUES
                 Mais à votre gauche, Romano Del Fallet marche, seul et le dos tourné à vous. Vous sentez votre sang ne
                 faire qu’un tour. L’heure de la vengeance a-t-elle sonné ?
                 </p>
-                <img src="https://zupimages.net/up/19/45/st5s.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/ville-obscur.jpg" class="col-12 story_img" alt="ville-obscur">
                 <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -542,7 +542,7 @@ INSERT INTO `level` VALUES
 (16,'suitesauteLevel4','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Pas de chance.</h1>
-                <img src="https://zupimages.net/up/19/45/5ieh.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/guerrier-saute-du-pont.jpg" class="col-12 mb-3 story_img" alt="guerrier-saute-du-pont">
             </div>
             <div class="row story_div_row">
                 <p class="col-10 story_div_p">
@@ -552,7 +552,7 @@ INSERT INTO `level` VALUES
                 d’attraper le bord du pont. Les planches craquent sous votre poids.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/i5ph.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort-crane.jpg" class="col-12 story_img" alt="mort-crane">
             <div class="row story_div">
                 <a href ="stage1"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
@@ -562,7 +562,7 @@ INSERT INTO `level` VALUES
         <section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Tant pis pour votre vie.</h1>
-                <img src="https://zupimages.net/up/19/46/vly5.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/romano-del-fallet.png" class="col-12 mb-3 story_img" alt="romano-del-fallet">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -578,7 +578,7 @@ INSERT INTO `level` VALUES
                 <p class="col-12 story_div_p">
                 Del Fallet s’écroule à vos côtés, et vous laissez patienter la mort le temps de l’observer périr.
                 </p>
-                <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             </div>
             <div class="row story_div">
                 <a href ="stage1"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
@@ -589,7 +589,7 @@ INSERT INTO `level` VALUES
 <section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vie.</h1>
-                <img src="https://zupimages.net/up/19/45/2you.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/ville-nuit.jpg" class="col-12 mb-3 story_img" alt="ville-nuit">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -605,7 +605,7 @@ INSERT INTO `level` VALUES
                 haine et votre désespoir. C’est avec une lenteur extrême mélangée à une fièvre intense que vous passez les
                 porte en bois et vous écroulez sur le sol d’épuisement.
                 </p>
-                <img src="https://zupimages.net/up/19/45/6l95.gif" class="col-12 story_img" alt="image">
+                <img src="/assets/images/gagner.gif" class="col-12 story_img" alt="gagner">
                 <div class="btn-group btn-group-toggle mx-auto mb-3 mt-3 story_div_path" data-toggle="buttons">
                     <label class="btn btn-secondary active story_path_label" for="a">
                         <input type="radio" name="a" id="a" autocomplete="off" checked> Vous avez survécu !
@@ -620,7 +620,7 @@ INSERT INTO `level` VALUES
 (19,'stage1furet','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vous voilà bien seul devant un premier dilemme.</h1>
-                <img src="https://zupimages.net/up/19/46/586i.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/epee.png" class="col-12 mb-3 story_img" alt="epee">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -647,7 +647,7 @@ INSERT INTO `level` VALUES
                     Devez-vous vous battre jusqu\'au bout, tuer votre nouvel ennemi et trouver la paix intérieure ? Ou chercher plutôt la 
                     tranquillité de vie au risque de vivre rongé par le remords ? 
                 </p>
-                <img src="https://zupimages.net/up/19/46/blyr.jpg" class="col-12 story_img" alt="image">
+                <img src="/assets/images/furet-main.jpg" class="col-12 story_img" alt="furet-main">
                 <p class="col-12 story_div_p pt-3">Que faites-vous ?</p>
             </div>
             <div class="row story_div">
@@ -661,7 +661,7 @@ INSERT INTO `level` VALUES
 (20,'famille','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Une belle vie pour un beau furret.</h1>
-                <img src="https://zupimages.net/up/19/46/d6kh.jpeg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/champ.jpg" class="col-12 mb-3 story_img" alt="champ">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -695,7 +695,7 @@ INSERT INTO `level` VALUES
                     Que décidez-vous ?
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/46/81u3.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/tunnel.jpg" class="col-12 story_img" alt="tunnel">
             <div class="row story_div">
                 <a href ="champ"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Champ</button></a>
             </div>
@@ -707,7 +707,7 @@ INSERT INTO `level` VALUES
 (21,'tunnel','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Quelle horreur !</h1>
-                <img src="https://zupimages.net/up/19/46/ad4h.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/taupe.png" class="col-12 mb-3 story_img" alt="taupe">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -726,7 +726,7 @@ INSERT INTO `level` VALUES
                     Ses dents vous égorgent avec férocité.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             <div class="row story_div">
                 <a href ="stage1furet"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
@@ -735,7 +735,7 @@ INSERT INTO `level` VALUES
 (22,'champ','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Vous vous faufilez entre les brins de blés.</h1>
-                <img src="https://zupimages.net/up/19/46/2mc6.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/ble.jpg" class="col-12 mb-3 story_img" alt="ble">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -761,7 +761,7 @@ INSERT INTO `level` VALUES
                     Que décidez-vous ?
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/46/fs0l.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/chien.jpg" class="col-12 story_img" alt="chien">
             <div class="row story_div">
                 <a href ="courrir"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Courrir</button></a>
             </div>
@@ -773,7 +773,7 @@ INSERT INTO `level` VALUES
 (23,'courrir','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1">Cuic !</h1>
-                <img src="https://zupimages.net/up/19/46/bg6x.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/chasse.png" class="col-12 mb-3 story_img" alt="chasse">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -791,7 +791,7 @@ INSERT INTO `level` VALUES
                     Ils se jettent sur vous et vous offre à leurs maître une fois que vous ne bougez plus.
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             <div class="row story_div">
                 <a href ="stage1furet"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
@@ -800,7 +800,7 @@ INSERT INTO `level` VALUES
 (24,'ramper','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> Ouf !</h1>
-                <img src="https://zupimages.net/up/19/46/f66u.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/furet-heureux.jpg" class="col-12 mb-3 story_img" alt="furet-heureux">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -820,7 +820,7 @@ INSERT INTO `level` VALUES
                     Une fois la nuit tombée vous le suivez dans votre nouveau voyez. 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/6l95.gif" class="col-12 story_img" alt="image">
+            <img src="/assets/images/gagner.gif" class="col-12 story_img" alt="gagner">
             <div class="row story_div">
                 <a href ="/../../Home/index"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Recommencez ?</button></a>
             </div>
@@ -829,7 +829,7 @@ INSERT INTO `level` VALUES
 (25,'vengeance','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> La vengeance est un plat qui se mange brulant !</h1>
-                <img src="https://zupimages.net/up/19/47/1ut6.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/couloir.jpg" class="col-12 mb-3 story_img" alt="couloir">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -863,7 +863,7 @@ INSERT INTO `level` VALUES
                     Que faîtes-vous ? 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/47/hxim.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/couloir-obscur.jpg" class="col-12 story_img" alt="couloir-obscur">
             <div class="row story_div">
                 <a href ="droite"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Droite ?</button></a>
             </div>
@@ -875,7 +875,7 @@ INSERT INTO `level` VALUES
 (26,'droite','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> A droite, pas à gauche !</h1>
-                <img src="https://zupimages.net/up/19/47/y72t.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/blaireau-cible.jpg" class="col-12 mb-3 story_img" alt="blaireau-cible">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -898,7 +898,7 @@ INSERT INTO `level` VALUES
                     Que faîtes-vous ?
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/47/wbup.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/guerrier.jpg" class="col-12 story_img" alt="guerrier">
             <div class="row story_div">
                 <a href ="Romano_droite"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Attaquer Romano ?</button></a>
             </div>
@@ -910,7 +910,7 @@ INSERT INTO `level` VALUES
 (27,'Romano_droite','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> Fallet pas s\'attaquer à Fallet !</h1>
-                <img src="https://zupimages.net/up/19/46/vly5.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/romano-del-fallet.png" class="col-12 mb-3 story_img" alt="romano-del-fallet">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -921,7 +921,7 @@ INSERT INTO `level` VALUES
                     d’hésitation. 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             <div class="row story_div">
                 <a href ="stage1furet"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
@@ -930,7 +930,7 @@ INSERT INTO `level` VALUES
 (28,'blaireau_droite','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> Demi tour !</h1>
-                <img src="https://zupimages.net/up/19/47/0sx7.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/blaireau-repos.jpg" class="col-12 mb-3 story_img" alt="blaireau-repos">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -960,7 +960,7 @@ INSERT INTO `level` VALUES
                     Maintenant, chercher une nouvelle famille est votre désir ultime. 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/46/blyr.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/furet-main.jpg" class="col-12 story_img" alt="furet-main">
             <div class="row story_div">
                 <a href ="famille"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Famille</button></a>
             </div>
@@ -969,7 +969,7 @@ INSERT INTO `level` VALUES
 (29,'gauche','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> A gauche, pas à droite !</h1>
-                <img src="https://zupimages.net/up/19/47/0sx7.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/blaireau-repos.jpg" class="col-12 mb-3 story_img" alt="blaireau-repos">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -986,7 +986,7 @@ INSERT INTO `level` VALUES
                     Que faîtes-vous ?
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/47/wbup.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/guerrier.jpg" class="col-12 story_img" alt="guerrier">
             <div class="row story_div">
                 <a href ="Romano_gauche"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Attaquer Romano</button></a>
             </div>
@@ -998,7 +998,7 @@ INSERT INTO `level` VALUES
 (30,'blaireau_gauche','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> Meurt !</h1>
-                <img src="https://zupimages.net/up/19/47/y72t.jpg" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/blaireau-cible.jpg" class="col-12 mb-3 story_img" alt="blaireau-cible">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -1026,7 +1026,7 @@ INSERT INTO `level` VALUES
                     Maintenant, chercher une nouvelle famille est votre désir ultime. 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/46/blyr.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/furet-main.jpg" class="col-12 story_img" alt="furet-main">
             <div class="row story_div">
                 <a href ="famille"><button type="button" class="btn btn-dark mx-auto mb-3 mt-3 row story_div_button">Famille</button></a>
             </div>
@@ -1035,7 +1035,7 @@ INSERT INTO `level` VALUES
 (31,'Romano_gauche','<section class="container story">
             <div class="row story_div_h1">
                 <h1 class="col-12 mt-3 story_div_h1"> Fallet pas s\'attaquer à Fallet !</h1>
-                <img src="https://zupimages.net/up/19/46/vly5.png" class="col-12 mb-3 story_img" alt="image">
+                <img src="/assets/images/romano-del-fallet.png" class="col-12 mb-3 story_img" alt="romano-del-fallet">
             </div>
             <div class="row story_div_row">
                 <p class="col-12 story_div_p">
@@ -1046,7 +1046,7 @@ INSERT INTO `level` VALUES
                     d’hésitation. 
                 </p>
             </div>
-            <img src="https://zupimages.net/up/19/45/v6jy.jpg" class="col-12 story_img" alt="image">
+            <img src="/assets/images/mort.jpg" class="col-12 story_img" alt="mort">
             <div class="row story_div">
                 <a href ="stage1furet"><button type="button" class="btn btn-dark mt-3 mb-3 row story_div_button">Retentez votre chance</button></a>
             </div>
